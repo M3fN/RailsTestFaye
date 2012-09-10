@@ -1,0 +1,4 @@
+<script>
+$("#chat").append("<%= escape_javascript render(@message) %>");
+$("#new_message")[0].reset();
+</script>
